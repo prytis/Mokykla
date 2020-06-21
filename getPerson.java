@@ -2,6 +2,7 @@ package mokykla;
 
 import mokykla.Enumai.*;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class getPerson extends Mokinys {
@@ -23,6 +24,8 @@ public class getPerson extends Mokinys {
         }
         return vid;
     }
+
+
 
     /**
      * getKlase() sugeneruoja atsitiktinį skaičių nuo 1 iki 12
@@ -147,5 +150,7 @@ public class getPerson extends Mokinys {
         int randomInt = (min + (int) (Math.random() * ((max - (min)) + 1)));
         return randomInt;
     }
+
+
 
 }
